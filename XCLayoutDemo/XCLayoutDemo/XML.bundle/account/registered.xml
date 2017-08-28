@@ -1,0 +1,18 @@
+<root>
+    <body size="0,*">
+        <UILabel size="0,*" mt="20" class="h1" text="请输入您的手机号"/>
+        <UIView size="0,*" margin="20,20,0,0">
+            <UILabel class="subTextLabel" size="0,20" text="只支持中国大陆手机号"/>
+            <x-include src="line_t_f.xml" mt="5"/>
+            <UIView size="0,*" mt="5">
+                <UILabel size="50,40" class="textLabel" text="+86" dis="1"/>
+                <UITextField size="auto,0" placeholder="请输入手机号" dis="1" mr="20" id="phoneNumber"/>
+            </UIView>
+            <x-include src="line_t_f.xml" mt="5"/>
+        </UIView>
+        <UIButton class="sumbitBtn" margin="35,20,0,20" title..n="确定"/>
+    </body>
+    <style>
+        
+    </style>
+</root>

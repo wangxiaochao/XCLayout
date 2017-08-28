@@ -1,0 +1,54 @@
+
+/* 大型缩略头像  */
+".bigHead":{
+    "size":"100,100",
+    "border_radius":"50",
+    "border":"1 headLine",
+    "image-Image":"def_head.png"
+},
+
+/* 正文文本  */
+".textLabel":{
+    "font-Font":"14",
+    "textColor-Color":"textColor"
+},
+/* 标题文本  */
+".h1":{
+    "font-Font":"18",
+    "textColor-Color":"textColor",
+    "textAlignment":"1"
+},
+/* 次要正文文本  */
+".subTextLabel":{
+    "font-Font":"13",
+    "textColor-Color":"subTextColor"
+},
+
+
+/* 提交按钮样式 确定 保存等  */
+".sumbitBtn":{
+    "size":"0,45",
+    "border_radius":"3",
+    "bgImage-Image..n":"sumbitBg",
+    "titleColor-Color..n":"sumbitTextColor",
+    "titleLabel.font-Font":"16"
+},
+/* 文本按钮样式  */
+".subTitleBtn":{
+    "size":"*,40",
+    "titleColor-Color..n":"subTextColor",
+    "titleColor-Color..h":"textColor",
+    "titleLabel.font-Font":"14"
+},
+
+
+"UITextField":{
+    "clearButtonMode":"3",
+    "font-Font":"14",
+    "textColor-Color":"textColor"
+},
+"UIImageView":{
+    "contentMode":"2",
+    "clipsToBounds":"1|bool"
+}
+

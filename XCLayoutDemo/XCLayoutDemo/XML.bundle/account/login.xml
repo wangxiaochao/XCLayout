@@ -1,0 +1,28 @@
+<root>
+    <body size="0,*">
+        <UIView size="0,*">
+            <UIImageView class="bigHead" center="2" mt="20"/>
+        </UIView>
+        <UIView margin="40,20,10,0" size="0,*">
+            <UIView size="0,*">
+                <UILabel size="50,40" class="textLabel" text="+86" dis="1"/>
+                <UITextField size="auto,0" placeholder="请输入手机号" dis="1" mr="20" id="phone"/>
+            </UIView>
+            <x-include src="line_t_f.xml" mt="5"/>
+            <UIView size="0,*" mt="10">
+                <UILabel size="50,40" class="textLabel" text="密码" dis="1"/>
+                <UITextField size="auto,0" placeholder="请输入密码" dis="1" mr="20" secureTextEntry="1|bool" id="pwd"/>
+            </UIView>
+            <x-include src="line_t_f.xml" mt="5"/>
+        </UIView>
+        
+        <UIButton class="sumbitBtn" margin="35,20,0,20" id="login" title..n="登录"/>
+        <UIView size="0,*" margin="3,20,0,20">
+            <UIButton title..n="找回密码" id="rPwd" class="subTitleBtn"/>
+            <UIButton title..n="新用户?" id="registered" pos="1" r="0" class="subTitleBtn"/>
+        </UIView>
+    </body>
+    <style>
+        
+    </style>
+</root>

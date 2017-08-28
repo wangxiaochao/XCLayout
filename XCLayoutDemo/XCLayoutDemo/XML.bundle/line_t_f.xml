@@ -1,0 +1,6 @@
+<UIView size="auto,1">
+    <UIView size="0,0.5" bg="line1"/>
+    <UIView size="0,0.5" bg="line0"/>
+</UIView>
+
+

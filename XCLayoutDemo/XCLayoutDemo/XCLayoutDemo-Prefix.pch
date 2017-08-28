@@ -1,0 +1,5 @@
+#ifdef __OBJC__
+    #import "XCLayout.h"
+#endif
+
+#define __XC_DEV__ (0)
